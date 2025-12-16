@@ -2,4 +2,8 @@
 
 ## 📌 Overview
 This lab demonstrates **SSH Tunneling and Port Forwarding** using two Linux virtual machines.  
-It covers **Local Port Forwarding** and **Remote Port Forwarding** with real services.
+It covers 
+**Local Port Forwarding** 
+**Remote Port Forwarding**
+**Dynamic Port Forwarding**
+ with real services.
