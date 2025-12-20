@@ -1,0 +1,1 @@
+A practical repository focused on SSH hardening and authentication. Covers key-based access, root login protection, Fail2Ban, user/IP restrictions, and production-ready security best practices for Linux and cloud servers.
