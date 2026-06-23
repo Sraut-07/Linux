@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Linux
 # Linux Labs & Projects
 
@@ -20,3 +21,20 @@ Each lab includes:
 ## 👨‍💻 Author
 Saurav Chintamni Raut  
 Linux | DevOps | Cloud Enthusiast
+=======
+# AWS DevOps Labs
+
+This repository contains my hands-on learning, notes, and projects related to AWS and DevOps.
+
+## Skills Covered
+- AWS (EC2, IAM, VPC, S3, CloudWatch)
+- Linux on AWS
+- Jenkins
+- Docker
+- CI/CD
+- Terraform
+
+## Goal
+To become job-ready for a DevOps / Cloud Engineer role.
+>>>>>>> 3144f45f4a9bf72e5d4d773feba84fce4403657e
+# mrdevops
